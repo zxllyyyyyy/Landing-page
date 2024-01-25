@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="image/logo.png" alt="Ini Logo" class="logo" /></a>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/index.html#">Home</a></li>
+          <li><a href="https://www.starbucks.co.id/menu">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2 data-aos="fade-right" data-aos-duration="2500">
+            It's not just Coffee<br />It's <span>Starbucks</span>
+          </h2>
+          <p class="paragraf" data-aos="fade-right" data-aos-duration="2500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+            harum amet, voluptates neque reprehenderit voluptatum facere
+            voluptatibus, soluta necessitatibus consequuntur, laboriosam
+            repudiandae accusamus?
+          </p>
+          <a
+            href="https://www.starbucks.co.id/Fakta-Tentang-Starbucks-di-Timur-Tengah"
+            data-aos="fade-right"
+            data-aos-duration="2500"
+            >Learn More</a
+          >
+        </div>
+        <div class="imgBox" data-aos="fade-left" data-aos-duration="2500">
+          <img src="image/img1.png" class="starBucks" alt="Ini hero image" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="image/thumb1.png"
+            onclick="imgSlider('image/img1.png');changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="image/thumb2.png"
+            onclick="imgSlider('image/img2.png');changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="image/thumb3.png"
+            onclick="imgSlider('image/img3.png');changeCircleColor('#d752b1')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="/starbuks/image/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/starbuks/image/instagram.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="/starbuks/image/twitter.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
